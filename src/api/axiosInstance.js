@@ -2,9 +2,9 @@ import axios from "axios"
 
 //BaseURL backend api
 const instance = axios.create({
-  // baseURL: "https://kg-farmers-backend.onrender.com",
+  baseURL: "https://kg-farmer-backend.onrender.com",
 
-  baseURL: "http://localhost:3000",
+  // baseURL: "http://localhost:3000",
 
   // baseURL: process.env.VUE_APP_API_BASE_URL,
 })
